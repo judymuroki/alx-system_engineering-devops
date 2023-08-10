@@ -1,2 +1,2 @@
 #!/bin/bash
-echo export $((`echo $PATH|grep -O ":/"|wc -|` +1))
+echo $((`echo $PATH|grep -O ":/"| wc -|`+1)) 
